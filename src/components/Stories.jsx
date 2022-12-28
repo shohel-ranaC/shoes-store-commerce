@@ -25,7 +25,7 @@ const Stories = ({story: {title, news} }) => {
       };
     return (
         <>
-          <div>
+          <div className="nike-container mb-11">
             <Title title={title}/>
             <div className='mt-7'>
                 <Splide options={splideOptions}>
